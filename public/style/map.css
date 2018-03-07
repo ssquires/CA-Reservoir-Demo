@@ -1,0 +1,92 @@
+body {
+/*    background: #BEF9FF;*/
+    background: #656969;
+    padding: 0;
+    margin: 0;
+}
+
+h1 {
+    text-align: center;
+    color: #FFF;
+    background-color: #656969;
+    margin: 0;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    font-size: 22px;
+}
+
+#header {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+svg {
+  display: block;
+  fill: none;
+  margin: 0;
+  padding: 0;
+  background-image: url(https://api.mapbox.com/styles/v1/mapbox/light-v9/static/-118.734060,37.786874,5,0/1000x1000@2x?access_token=pk.eyJ1Ijoic3NxdWlyZXMiLCJhIjoiY2o2em5rcGRiMmNvejJxczYwNTRvaTFpdiJ9.SYtdTtKtdmr_BM7qdCsytA);
+  background-size: cover;
+    background-position: center;
+}
+
+svg path:hover {
+    opacity: 0.7;
+}
+
+svg circle {
+    opacity: 0.4;
+}
+svg circle:hover {
+    opacity: 0.7;
+}
+
+.res {
+    transition: r 0.5s linear, fill 0.5s linear, stroke 0.5s linear, opacity 0.5s linear;
+}
+
+#SHA {
+    color: green;
+}
+
+div.tooltip {
+ 	position: absolute;
+    text-align: left;
+	border: 0px;
+	border-radius: 0px;
+	pointer-events: none;
+    padding: 5px;
+    display: inline-block;
+}
+
+p {
+    font-family: "Open Sans", sans-serif;
+    padding: 0;
+    margin: 0;
+    font-size: 12px;
+}
+
+#ziptitle {
+    font-weight: bold;
+}
+
+#header {
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.bottom {
+    font-family: Open Sans;
+    color: white;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+#link {
+    text-decoration: underline;
+}
