@@ -209,7 +209,6 @@ function reservoirMouseover(d) {
     var currRes = document.getElementById(d.Name);
     console.log(d.Name);
     currRes.classList.add('hoveredRes');
-    currRes.style.r = 10;
     
     if (currSelection === '') {
         addResConnections(d.Name);
