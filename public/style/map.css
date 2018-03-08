@@ -23,9 +23,9 @@ h1 {
 svg {
   display: block;
   fill: none;
-  margin: 0;
+  margin: auto;
   padding: 0;
-  background-image: url(https://api.mapbox.com/styles/v1/mapbox/light-v9/static/-118.734060,37.786874,5,0/1000x1000@2x?access_token=pk.eyJ1Ijoic3NxdWlyZXMiLCJhIjoiY2o2em5rcGRiMmNvejJxczYwNTRvaTFpdiJ9.SYtdTtKtdmr_BM7qdCsytA);
+  background-image: url(https://api.mapbox.com/styles/v1/mapbox/light-v9/static/-118.734060,37.786874,5.7,0/1000x1000@2x?access_token=pk.eyJ1Ijoic3NxdWlyZXMiLCJhIjoiY2o2em5rcGRiMmNvejJxczYwNTRvaTFpdiJ9.SYtdTtKtdmr_BM7qdCsytA);
   background-size: cover;
     background-position: center;
 }
@@ -43,6 +43,26 @@ svg circle:hover {
 
 .res {
     transition: r 0.5s linear, fill 0.5s linear, stroke 0.5s linear, opacity 0.5s linear;
+    fill: black;
+}
+
+.importantRes {
+    fill: red;
+}
+
+.highlightedRes {
+    fill: orange;
+    opacity: 1;
+}
+
+.hoveredRes {
+    fill: limegreen;
+    opacity: 1;
+}
+
+.selectedRes {
+    fill: red;
+    opacity: 1;
 }
 
 #SHA {
@@ -64,6 +84,12 @@ p {
     padding: 0;
     margin: 0;
     font-size: 12px;
+    text-align: center;
+    color: white;
+}
+
+#directions {
+    margin-top: 20px;
 }
 
 #ziptitle {
